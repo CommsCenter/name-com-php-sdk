@@ -1,0 +1,24 @@
+{
+  "name": "commscenter/name-com-php-sdk",
+  "description": "PHP SDK for Name.Com API v4",
+  "homepage": "https://github.com/commscenter/name-com-php-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bojan Rajh",
+      "email": "bojan@comms.dev"
+    }
+  ],
+  "require": {
+    "pckg-app/api": "dev-master"
+  },
+  "suggest": {
+    "pckg/framework": "Add framework to use built-in console commands and providers"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-0": {
+      "OpenCode": "src\\"
+    }
+  }
+}
